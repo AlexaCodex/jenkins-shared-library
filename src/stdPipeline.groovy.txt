@@ -1,0 +1,15 @@
+# /src/org/pipeline/stdPipeline.groovy
+#!/bin/groovy
+package org.pipeline;
+
+def execute() {
+
+  node {
+		stage('Restore Package(s)...') {
+            steps {
+                echo 'Restore Package(s)'
+            }
+        }
+  }
+
+}
