@@ -9,7 +9,7 @@ def execute(Map pipelineParams) {
             steps {
                 echo 'Restore Package(s)'
 				"${env.BUILD_URL}"
-				echo 'Testing..' pipelineParams.scmUrl
+		    echo 'Testing..${pipelineParams.scmUrl}'
             }
         }
   }
