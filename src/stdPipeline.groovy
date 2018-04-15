@@ -1,6 +1,6 @@
-# /src/org/pipeline/stdPipeline.groovy
+# /src/org/jpipeline/stdPipeline.groovy
 #!/bin/groovy
-package org.pipeline;
+package org.jpipeline;
 
 def execute(Map pipelineParams) {
 
