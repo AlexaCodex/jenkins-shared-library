@@ -2,12 +2,14 @@
 #!/bin/groovy
 package org.pipeline;
 
-def execute() {
+def execute(Map pipelineParams) {
 
   node {
 		stage('Restore Package(s)...') {
             steps {
                 echo 'Restore Package(s)'
+				"${env.BUILD_URL}"
+				echo 'Testing..' pipelineParams.scmUrl
             }
         }
   }
