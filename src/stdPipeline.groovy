@@ -1,6 +1,6 @@
 # /src/org/jpipeline/stdPipeline.groovy
 #!/bin/groovy
-package org.jpipeline;
+#package org.jpipeline;
 
 def execute() {
 
